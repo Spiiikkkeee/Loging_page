@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Merriweather:ital,wght@1,900&family=Oswald:wght@300;500&family=Poppins:ital,wght@0,300;0,400;1,600&family=Signika&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url(/img/bg.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background: #fff;
+    width: 327px;
+    height: 500px;
+    border-radius: 7px;
+}
+
+#username {
+    display: inline-block;
+    margin: 5px;
+    outline: none;
+    width: 266px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.7px solid grey;
+    padding: 8px;
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: blue;
+}
+
+#password {
+    display: inline-block;
+    margin: 5px;
+    outline: none;
+    width: 266px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0.7px solid grey;
+    padding: 8px;
+    font-weight: bold;
+    color: blue;
+
+}
+
+span {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: 1.2em;
+    color: grey;
+}
+
+h1 {
+    margin-left: 3.3em;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 0.6em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rong {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+h2 {
+    font-size: 10px;
+    letter-spacing: 0.1px;
+    margin-top: 0.2em;
+    margin-left: 20em;
+    cursor: pointer;
+}
+
+h2 a {
+    text-decoration: none;
+    color: grey;
+}
+
+h2 a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.all .btn {
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+.btn button {
+    width: 20em;
+    padding: 10px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #1DA1F2, #CF9FFF);
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+h3 {
+    font-size: 10px;
+    color: grey;
+    margin-top: 3em;
+    margin-left: 10.5em;
+}
+
+.icons {
+    margin-top: 1em;
+    margin-left: 5em;
+}
+
+.icons a {
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #4285F4;
+}
+
+.icons a:hover {
+    color: #f4b400;
+}
+
+#copy {
+    font-size: 10px;
+    font-weight: bold;
+    color: grey;
+    letter-spacing: 0.5px;
+    margin-top: 1em;
+    margin-left: 5em;
+    cursor: pointer;
+    display: inline-block;
+}
+
+h4 {
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-left: 12.5em;
+    cursor: pointer;
+}
+
+h4 a {
+    text-decoration: none;
+    color: grey;
+}
+
+h4 a:hover {
+    text-decoration: underline;
+    color: blue;
+
+}
